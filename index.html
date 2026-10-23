@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FLBR Consultoria - Automação e Instrumentação Industrial</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Segoe UI',Arial,sans-serif;color:#102e65;line-height:1.6}
+header{background:#102e65;color:#fff;padding:14px 5%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;position:sticky;top:0;z-index:10}
+.btn{background:#25D366;color:#fff;padding:12px 22px;border-radius:30px;text-decoration:none;font-weight:700;display:inline-flex;gap:8px;justify-content:center;align-items:center}
+.btn-blue{background:#0A66C2;color:#fff;padding:12px 22px;border-radius:30px;text-decoration:none;font-weight:700}
+.hero{display:flex;flex-wrap:wrap;padding:50px 5%;gap:30px;background:#fff;align-items:center}
+.hero-text{flex:1;min-width:300px}.hero h1{font-size:40px;line-height:1.1}.hero img{width:100%;max-width:380px;height:auto;border-radius:24px;object-fit:cover}
+.badges span{background:#e1ebff;padding:7px 14px;border-radius:20px;margin:5px;display:inline-block;font-size:13px}
+.sec{padding:50px 5%}.gray{background:#f1f4f9}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:20px}
+.card{background:#fff;padding:20px;border-radius:14px;box-shadow:0 6px 18px rgba(0,0,0,.06);text-align:left}
+.plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:25px}
+.plan{background:#fff;padding:22px;border-radius:16px;box-shadow:0 8px 20px rgba(0,0,0,.07);border:2px solid #e6ecf7}
+.plan.featured{background:#102e65;color:#fff;border-color:#102e65;transform:scale(1.03)}
+footer{background:#102e65;color:#fff;padding:30px 5%;display:flex;flex-wrap:wrap;justify-content:space-between;gap:20px}
+.btn-group{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}
+</style>
+</head>
+<body>
+<header>
+<div><b style="border:2px solid #fff;padding:5px 10px;border-radius:8px">FLBR</b> Consultoria</div>
+<nav style="display:flex;gap:14px;font-size:14px;flex-wrap:wrap"><span><a href="#inicio">inicio</a></span><span><a href="#planos">Planos</a></span><span><a href="#contratar">Por que me Contratar</a></span></nav>
+<a class="btn" href="https://wa.me/5527998931622?text=Olá,%20quero%20orçamento%20de%20consultoria%20em%20automação">Fale no WhatsApp</a>
+</header>
+
+<section class="hero">
+<div class="hero-text" id="inicio">
+<h1>Consultoria em Automação e Instrumentação Industrial</h1>
+<p style="margin:12px 0;color:#304a7a;font-size:18px">Soluções técnicas para mineração, siderurgia e indústria. Especialista com 24 anos em Vale e ArcelorMittal.</p>
+<div class="badges"><span>✓ 24 anos de experiência</span><span>🏢 Vale • ArcelorMittal</span></div>
+
+<div class="btn-group">
+
+<a class="btn" href="https://wa.me/5527998931622?text=Olá,%20quero%20orçamento%20de%20consultoria">Solicitar Orçamento pelo WhatsApp</a>
+<a class="btn-blue" href="#servicos">Ver Serviços</a>
+</div>
+
+<small>Atendimento em Cariacica - ES e todo Espírito Santo • On-site & Remoto</small>
+</div>
+<img src="imgs/foto2.jpg" alt="Francisco Rosa - Consultor">
+</section>
+
+<section class="sec gray" id="servicos">
+<h2 style="text-align:center">Serviços de Consultoria</h2>
+<div class="grid">
+<div class="card"><b>⚖️ Diagnóstico de Balanças Industriais</b><p style="font-size:13px;margin-top:6px">Calibração, laudo técnico, conformidade metrológica e auditoria. Estáticas, Dinâmicas e Analíticas.</p></div>
+<div class="card"><b>⚙️ Retrofit e Programação de CLPs</b><p style="font-size:13px;margin-top:6px">Rockwell, Siemens, WEG. Upgrade, modernização e manutenção preventiva.</p></div>
+<div class="card"><b>🖥️ SCADA e Supervisórios</b><p style="font-size:13px;margin-top:6px">Desenvolvimento e otimização de supervisórios, alarmes e relatórios.</p></div>
+<div class="card"><b>🌐 Redes Industriais</b><p style="font-size:13px;margin-top:6px">Modbus, Profibus-PA, Ethernet/IP. Configuração e troubleshooting.</p></div>
+<div class="card"><b>🚀 Comissionamento e Start-up</b><p style="font-size:13px;margin-top:6px">Testes, comissionamento seguro e partida de sistemas industriais.</p></div>
+<div class="card"><b>📋 Gestão de Contratos de Calibração</b><p style="font-size:13px;margin-top:6px">Experiência de 11 anos na ArcelorMittal gerenciando contratos críticos.</p></div>
+</div>
+</section>
+
+<section class="sec" id="planos">
+<h2 style="text-align:center">Como Funciona - Planos</h2>
+<div class="plans">
+
+<div class="plan"><b>Plano Bronze</b><br><small>A partir de R$ 2.490/mês</small><br><br><p style="font-size:14px">✓ Diagnóstico Inicial<br>✓ Suporte Remoto Mensal<br>✓ Relatório Técnico</p><br><a style="border:2px solid #102e65;padding:8px 18px;border-radius:20px;text-decoration:none;display:inline-block" href="https://wa.me/5527998931622">Contratar Bronze</a></div>
+
+<div class="plan featured"><span style="background:#25D366;padding:3px 8px;border-radius:10px;font-size:11px">Mais Procurado</span><br><b>Plano Prata</b><br><small>A partir de R$ 4.990/mês</small><br><br><p style="font-size:14px">✓ Tudo do Bronze<br>✓ Programação/Retrofit de CLPs<br>✓ Suporte Prioritário<br>✓ Visitas Técnicas Mensais</p><br><a class="btn" href="https://wa.me/5527998931622">Contratar Prata</a></div>
+
+<div class="plan"><b>Plano Ouro</b><br><small>A partir de R$ 7.980/mês</small><br><br><p style="font-size:14px">✓ Tudo do Prata<br>✓ Comissionamento & Start-up<br>✓ Gestão Completa de Calibração<br>✓ Suporte 24/7 + On-site</p><br><a style="border:2px solid #102e65;padding:8px 18px;border-radius:20px;text-decoration:none;display:inline-block" href="https://wa.me/5527998931622">Contratar Ouro</a></div>
+
+</div>
+</section>
+
+<section class="sec gray">
+<h2 style="text-align:center" id="contratar">Por que me Contratar?</h2>
+<p style="max-width:800px;margin:15px auto;text-align:center">24 anos em campo, não em teoria. 10 anos na Vale (Porto de Tubarão) e 11 anos na ArcelorMittal (Balanças). Já vi o que funciona e o que para uma usina. Meu diferencial: foco em segurança, redução de paradas não programadas e inteligência emocional para lidar com equipes difíceis.</p>
+<div style="max-width:700px;margin:20px auto;background:#dbe6ff;padding:20px;border-radius:12px">
+<i>"Profissional altamente experiente, entregou o projeto de automação dentro do prazo e com excelente qualidade técnica." — Cliente da Indústria Mineradora ★★★</i>
+</div>
+</section>
+
+<footer>
+<div><b>Francisco Leonardo Braz Rosa</b><br><small>Consultoria em Automação Industrial • Cariacica - ES<br>lords.francisco@gmail.com • (27) 99893-1622</small></div>
+<a class="btn" href="https://wa.me/5527998931622">Falar no WhatsApp Agora</a>
+</footer>
+</body>
+</html>
